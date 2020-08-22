@@ -469,14 +469,5 @@ export default class FreelanceAnimationImage extends Vue {}
   #apple {
     animation: fallingDown 4s ease;
   }
-
-  @keyframes fallingDown {
-    from {
-      transform: rotateX(180deg);
-    }
-    to {
-      transform: rotateX(360deg);
-    }
-  }
 }
 </style>
