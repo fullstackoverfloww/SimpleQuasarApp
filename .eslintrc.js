@@ -88,5 +88,6 @@ module.exports = {
 
     // my rules
     'arrow-parens': 'off',
+    'max-len': ['error', { code: 1000 }],
   },
 };
